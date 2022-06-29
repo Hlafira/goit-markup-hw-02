@@ -117,6 +117,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-primary-color);
   background-color: var(--active-color);
+  cursor: pointer;
 }
 
 .button.primary:hover,
@@ -203,10 +204,6 @@ body {
 
 .projects-list {
   list-style: none;
-}
-
-.project-link {
-  text-decoration: none;
 }
 
 .project-title {
