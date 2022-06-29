@@ -117,6 +117,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-primary-color);
   background-color: var(--active-color);
+  cursor: pointer;
 }
 
 .button.primary:hover,
@@ -183,6 +184,7 @@ body {
   text-align: center;
   color: var(--title-color);
   background-color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .button-active,
@@ -203,10 +205,6 @@ body {
 
 .projects-list {
   list-style: none;
-}
-
-.project-link {
-  text-decoration: none;
 }
 
 .project-title {
