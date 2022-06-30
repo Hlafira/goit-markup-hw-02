@@ -128,7 +128,8 @@ body {
 
 /* advantages */
 .advantages-title {
-  display: none;
+  font-size: 0;
+  color:transparent;
 }
 
 .advantages-list {
@@ -196,7 +197,8 @@ body {
 
 /* projects */
 .projects-title {
-  display: none;
+  font-size: 0;
+  color: transparent;
 }
 
 .filter-list {
@@ -205,6 +207,10 @@ body {
 
 .projects-list {
   list-style: none;
+}
+
+.project-link{
+  text-decoration: none;
 }
 
 .project-title {
@@ -217,4 +223,5 @@ body {
 .project-type {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--text-color);
 }
