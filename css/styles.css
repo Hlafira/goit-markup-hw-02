@@ -52,7 +52,8 @@ body {
 .nav-link:focus,
 .nav-link:hover,
 .contact-link:focus,
-.contact-link:hover {
+.contact-link:hover,
+.footer .contact-link:not(.address):hover {
   color: var(--active-color);
 }
 
@@ -86,9 +87,7 @@ body {
   text-decoration: none;
 }
 
-.contacts-list {
-  text-decoration: none;
-}
+
 .contact-link.address {
   color: var(--text-primary-color);
 }
@@ -136,6 +135,7 @@ body {
 }
 
 .advantage-subtitle {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-color);
@@ -176,7 +176,7 @@ body {
 
 .team-item .post {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -190,7 +190,7 @@ body {
   color: var(--title-color);
   background-color: var(--secondary-color);
   cursor: pointer;
-}
+ }
 
 .button-active,
 .button:hover,
